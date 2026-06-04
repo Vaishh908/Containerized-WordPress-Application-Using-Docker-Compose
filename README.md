@@ -8,6 +8,9 @@ With Docker Compose, you can deploy a complete WordPress environment in just a f
 
 ---
 
+<img width="1100" height="733" alt="image" src="https://github.com/user-attachments/assets/67cf0bea-b2bf-4651-98b9-a956e6dab79d" />
+
+
 ## Project Objective
 
 The objective of this project is to:

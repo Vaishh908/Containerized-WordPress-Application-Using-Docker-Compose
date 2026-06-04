@@ -6,7 +6,6 @@ Setting up WordPress traditionally requires installing and configuring Apache/Ng
 
 With Docker Compose, you can deploy a complete WordPress environment in just a few minutes using containers. This project demonstrates how to run WordPress and MySQL as separate services while ensuring persistent data storage and easy management.
 
----
 
 <img width="1100" height="733" alt="image" src="https://github.com/user-attachments/assets/67cf0bea-b2bf-4651-98b9-a956e6dab79d" />
 
@@ -21,7 +20,6 @@ The objective of this project is to:
 * Use Docker Volumes for persistent storage
 * Simplify deployment with Docker Compose
 
----
 
 ##  Prerequisites
 
@@ -37,7 +35,6 @@ docker --version
 docker compose version
 ```
 
----
 
 ## Project Structure
 
@@ -48,7 +45,6 @@ wordpress-docker/
 └── README.md
 ```
 
----
 
 ##  Docker Compose Configuration
 
@@ -82,7 +78,6 @@ volumes:
   myvol:
 ```
 
----
 
 ##  Architecture Overview
 
@@ -103,7 +98,6 @@ Port Mapping:
 Host Port 80 → Container Port 80
 ```
 
----
 
 ### MySQL Container
 
@@ -154,7 +148,6 @@ Database Response
 Website Displayed
 ```
 
----
 
 ##  Deploy the Application
 
@@ -194,7 +187,6 @@ http://<EC2-Public-IP>
 
 You will see the WordPress installation screen.
 
----
 
 ##  Complete WordPress Setup
 
@@ -241,7 +233,6 @@ docker compose logs
 docker compose restart
 ```
 
----
 
 ## Real-World Use Cases
 
@@ -252,7 +243,6 @@ docker compose restart
 * Containerization Practice
 * Cloud Deployments (AWS, Azure, GCP)
 
----
 
 ##  Key Learning Outcomes
 
@@ -265,7 +255,6 @@ By completing this project, you will learn:
 * Persistent Storage with Volumes
 * WordPress & MySQL Integration
 
----
 
 ##  Benefits of Docker Compose
 
@@ -281,7 +270,6 @@ By completing this project, you will learn:
 
 - Simplified Configuration
 
----
 
 ##  Conclusion
 

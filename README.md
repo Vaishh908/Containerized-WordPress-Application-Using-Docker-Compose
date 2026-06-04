@@ -287,11 +287,3 @@ Docker Compose simplifies WordPress deployment by running WordPress and MySQL in
 This project demonstrates modern DevOps practices and provides a practical introduction to containerized application deployment. Using a single Docker Compose file, you can quickly launch, manage, and scale a complete WordPress environment with minimal configuration effort.
 
 ---
-
-### 👩‍💻 Author
-
-**Vaishnavi Jagtap**
-
-B.Tech Information Technology
-
-DevOps & Cloud Enthusiast
